@@ -19,6 +19,7 @@ function TaskForm({ createTask }) {
           onChange={(e) => setTask(e.target.value)}
           placeholder="Enter a new task"
           className="form-control"
+          required
         />
       </div>
       <div className="col-3">

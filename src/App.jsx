@@ -19,7 +19,7 @@ function App() {
   }, [taskItems]);
 
   const createTask = (taskName) => {
-    if (!taskItems.find((task) => task.name === taskName)) {
+    if (!taskItems.find((task) => task.name === taskName) && taskName) {
       setTaskItems([...taskItems, { name: taskName, done: false }]);
     }
   };
