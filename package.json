@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://GuillermoSMG.github.io/react-ToDo-APP",
+  "homepage":"https://guillermosmg.github.io/react-ToDo-APP",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
